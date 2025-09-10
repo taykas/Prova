@@ -1,6 +1,14 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+using Microsoft.EntityFrameworkCore;
+using ProvaCsharp.Models;
 
-app.MapGet("/", () => "Hello World!");
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<ProvaCscharpDbContext>(
+    options => options.UseSqlServer(
+        Environment.GetEnvironmentVariable("SQL_CONNECTION")
+    )
+);
+
+var app = builder.Build();
 
 app.Run();

@@ -8,4 +8,5 @@ public class User
     public string Password { get; set; }
     public Tour Tour { get; set; }
     public ICollection<Tour> Tours { get; set; } = [];
+    public ICollection<ToursPoint> ToursPoints { get; set; } = [];
 }
