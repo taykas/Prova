@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\disrct\\Desktop\\Prova\\ProvaCsharp\\ProvaCsharp.csproj": {}
+    "C:\\Users\\disrct\\Desktop\\Prova\\ProvaCsharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\disrct\\Desktop\\Prova\\ProvaCsharp\\ProvaCsharp.csproj": {
+    "C:\\Users\\disrct\\Desktop\\Prova\\ProvaCsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Prova\\ProvaCsharp\\ProvaCsharp.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Prova\\ProvaCsharp.csproj",
         "projectName": "ProvaCsharp",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Prova\\ProvaCsharp\\ProvaCsharp.csproj",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\Prova\\ProvaCsharp.csproj",
         "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Prova\\ProvaCsharp\\obj\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\Prova\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -48,11 +48,19 @@
               "target": "Package",
               "version": "[9.0.9, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.9, )"
             }

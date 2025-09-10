@@ -1,0 +1,12 @@
+namespace ProvaCsharp.Models;
+
+public class Tour
+{
+    public int TourID { get; set; }
+    public int UserID { get; set; }
+    public string Title { get; set; }
+    public string Description { get; set; }
+    public User User { get; set; }
+    public Point Point { get; set; }
+    public ICollection<Point> Points { get; set; }
+}
