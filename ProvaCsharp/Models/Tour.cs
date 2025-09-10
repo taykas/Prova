@@ -7,6 +7,7 @@ public class Tour
     public string Title { get; set; }
     public string Description { get; set; }
     public User User { get; set; }
+    public int PointID { get; set; }
     public Point Point { get; set; }
     public ICollection<ToursPoint> ToursPoints { get; set; } = [];
     public ICollection<User> Users { get; set; } = [];
