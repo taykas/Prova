@@ -4,6 +4,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using ProvaCsharp.Infrastructure;
+using ProvaCsharp.Services.LoginService;
 
 public class JWTService : IJWTServices
 {
@@ -27,4 +28,5 @@ public class JWTService : IJWTServices
         var handler = new JwtSecurityTokenHandler();
         return handler.WriteToken(jwt);
     }
+
 }
